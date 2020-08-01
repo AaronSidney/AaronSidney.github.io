@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+  color:white
+}
+
+img{
+  width:100%;
+  margin:20px;
+}
+a{
+  text-align: center;
+  width:120px;
+  font-size: 2.3em;
+  color:#71EEB8;
+}
+nav{
+  display: flex;
+  justify-content:space-around;
+  color: black;
+}
+nav >a:hover{
+  background-color: #71EEB8;
+  text-decoration: none;
+  color:black;
+}
+.home-container{
+ text-align: center;
+display: flex;
+justify-content: space-around;
+}
+.col1{
+  width:50%;
+
+}
+.col2{
+  margin:100px;
+width:30%;
+}
+.classes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h2,h1{
+  font-family: 'Arima Madurai', cursive;
+  text-align: center;
+}
+.topics{
+  border:2px solid white;
+  margin:20px;
+  width:45%;
+  text-align: center;
+}
+.fa-phone{
+  margin-top: 300px;
+}
+.fas{
+    font-size: 2em;
+}
+
+.biohead{
+  display: block;
+}
+
+.Goals{
+  display:flex;
+}
+#carouselExampleControls{
+margin: 100px;
+}
